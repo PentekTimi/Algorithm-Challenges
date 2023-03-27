@@ -49,17 +49,15 @@ Scores are in the same order as the games played. She tabulates her results as f
 
 Given the scores for a season, determine the number of times Maria breaks her records for most and least points scored during the season.
 
-Function Description
-
+Function Description<br>
 Complete the breakingRecords function in the editor below.
 
-breakingRecords has the following parameter(s):
-
+breakingRecords has the following parameter(s):<br>
 int scores[n]: points scored per game
-Returns
 
+Returns<br>
 int[2]: An array with the numbers of times she broke her records. Index 0 is for breaking most points records, and index 1 is for breaking least points records.
-Input Format
 
+Input Format<br>
 The first line contains an integer n, the number of games.
 The second line contains n space-separated integers describing the respective values of score<sub>0</sub>, score<sub>1</sub>, ...,score<sub>n-1</sub>.
