@@ -11,21 +11,21 @@ function flippingMatrix(matrix) {
             matrix[i].reverse();
             //we check if the new value in the position [i][j] is greater than the previous value, if yes we update the max variable
             if (matrix[i][j] > max) {
-                max=matrix[i][j];
+                max = matrix[i][j];
             } 
             // we flip the whole matrix, the last row will become the first row
             matrix.reverse();
             //we check if the new values in the position [i][j] is greater than the previous one
-            if (matrix[i][j]>max) {
-                max=matrix[i][j];
+            if (matrix[i][j] > max) {
+                max = matrix[i][j];
             }
             //finally we reverse the matrix´s row and check if the new values in the position [i][j] are greater than the previous ones
             matrix[i].reverse();
-            if (matrix[i][j]>max) {
-                max=matrix[i][j];
+            if (matrix[i][j] > max) {
+                max = matrix[i][j];
             }
             // we add the max varibale to the sum variable
-            sum+=max;
+            sum += max;
         }
 
     }
